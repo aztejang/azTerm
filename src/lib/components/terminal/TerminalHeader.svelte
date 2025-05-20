@@ -59,7 +59,6 @@
 		align-items: center;
 		border-top-left-radius: 6px;
 		border-top-right-radius: 6px;
-		cursor: move;
 		user-select: none;
 		z-index: 1;
 	}
