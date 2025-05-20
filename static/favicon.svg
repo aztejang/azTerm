@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .terminal-bg { fill: #0a1929; }  /* Neo theme background */
+    .prompt { fill: #ff79c6; }       /* Neo theme command color */
+    @media (prefers-color-scheme: dark) {
+      .terminal-bg { fill: #282a36; }  /* Dracula theme background */
+      .prompt { fill: #ff79c6; }       /* Dracula theme command color */
+    }
+  </style>
+  <rect class="terminal-bg" x="2" y="2" width="28" height="28" rx="3"/>
+  <path class="prompt" d="M8 12l6 4-6 4v-2l4-2-4-2v-2z M16 20h8v2h-8z"/>
+</svg> 
