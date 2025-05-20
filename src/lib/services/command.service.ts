@@ -123,7 +123,7 @@ export function handleProjectSelection(selectedProjectIndex: number): void {
 			...state.output.slice(0, -1),
 			`<span class="accent">${selectedProject.name}</span>`,
 			`${selectedProject.description}`,
-			`<span class="accent">Technologies:</span>`,
+			`<span class="accent">Main technologies:</span>`,
 			...selectedProject.technologies.map((tech) => `- ${tech}`)
 		]
 	}));

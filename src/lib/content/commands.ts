@@ -3,16 +3,16 @@ export const commands = {
 		description: 'Shows all available commands'
 	},
 	about: {
-		description: 'Whoami?'
+		description: 'Who am I?'
 	},
 	projects: {
-		description: 'Lists my latest projects'
+		description: 'Lists some of my projects'
 	},
 	clear: {
-		description: 'Housecleaning!'
+		description: 'Clear the terminal'
 	},
 	themes: {
-		description: 'Change terminal theme - ooo, fancy'
+		description: 'Change terminal theme'
 	}
 } as const;
 
